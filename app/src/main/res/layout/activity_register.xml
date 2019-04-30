@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@drawable/register_login_background"
+    tools:context=".activity.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+
+        <EditText
+            android:id="@+id/Id_kayit_mail"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:padding="15dp"
+            android:textColorHint="@color/colorGray"
+            android:background="@color/colorWhite"
+            android:hint="@string/eposta"/>
+        <EditText
+            android:id="@+id/Id_kayit_password"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:padding="15dp"
+            android:textColorHint="@color/colorGray"
+            android:background="@color/colorWhite"
+            android:layout_marginTop="10dp"
+            android:hint="@string/password"/>
+        <EditText
+            android:id="@+id/Id_again_password"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:padding="15dp"
+            android:textColorHint="@color/colorGray"
+            android:background="@color/colorWhite"
+            android:layout_marginTop="10dp"
+            android:hint="@string/password_again"/>
+        <Button
+            android:id="@+id/btn_kayitregister"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="Kaydol"
+            android:textColor="#FFF"
+            android:background="@color/colorButton"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

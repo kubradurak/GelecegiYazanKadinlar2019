@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorButton">#f9cc49</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="colorGray">#a1a499</color>
+    <color name="colorBackground">#668b8a</color>
+    <color name="color_changePhoto_btn">#FF5722</color>
+    <color name="color_add_button">#151C44</color>
+</resources>

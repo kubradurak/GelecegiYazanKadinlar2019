@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Anasayfa" />
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Profilim" />
+
+        <item
+            android:id="@+id/nav_mynotes"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="Notlarm"
+            />
+
+    </group>
+
+    <item android:title="Ayarlar">
+        <menu>
+            <item
+                android:id="@+id/nav_cıkıs"
+                android:icon="@drawable/ic_do_not_disturb_on_black_24dp"
+                android:title="Çıkış Yap" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@drawable/register_login_background"
+    tools:context=".activity.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+
+        <EditText
+            android:id="@+id/Id_login_email"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:padding="15dp"
+            android:textColorHint="@color/colorGray"
+            android:background="@color/colorWhite"
+            android:hint="@string/eposta"/>
+        <EditText
+            android:id="@+id/Id_login_password"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:padding="15dp"
+            android:textColorHint="@color/colorGray"
+            android:background="@color/colorWhite"
+            android:layout_marginTop="10dp"
+            android:hint="@string/password"/>
+        <Button
+            android:id="@+id/btn_sign_in"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="SIGN IN"
+            android:textColor="#FFF"
+            android:background="@color/colorButton"/>
+        <Button
+            android:id="@+id/btn_kaydol"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/kaydol"
+            android:textColor="#FFF"
+            android:background="@color/colorButton"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

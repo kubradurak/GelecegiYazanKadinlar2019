@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1098601711480",
+    "firebase_url": "https://hafta501.firebaseio.com",
+    "project_id": "hafta501",
+    "storage_bucket": "hafta501.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098601711480:android:df1ebec41c92831a",
+        "android_client_info": {
+          "package_name": "mobil.csystem.org.hafta5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098601711480-7cla5mvu3ivmilf3dkf9hq7qm4jn0urs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mobil.csystem.org.hafta5",
+            "certificate_hash": "98f71e9a49684ef36a6960ec22d031658b040966"
+          }
+        },
+        {
+          "client_id": "1098601711480-p9fos4bud11et7ofl54mk0g7bsetgenq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgPrAQxs4J1mp45b38wkd9V0NLQfLgoG8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1098601711480-p9fos4bud11et7ofl54mk0g7bsetgenq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
